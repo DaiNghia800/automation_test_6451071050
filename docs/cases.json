@@ -56,7 +56,7 @@
     "password": "",
     "steps": "1. Mở /Login. 2. Kiểm tra mặc định chưa chọn. 3. Click label bật. 4. Click label tắt.",
     "expected": "Checkbox lần lượt false, true, false; không submit form.",
-    "status": "NOT RUN",
-    "actual": ""
+    "status": "PASS",
+    "actual": "Đã chạy trên Chrome hiển thị; các assertion đạt."
   }
 ]
