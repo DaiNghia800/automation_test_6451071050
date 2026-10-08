@@ -118,5 +118,15 @@
     "expected": "Link hiển thị, trỏ tới HTTPS accounts.google.com, có client_id, response_type=code và callback /Login đúng domain UTC.",
     "status": "BLOCKED",
     "actual": "Không hoàn tất test, exit=1"
+  },
+  {
+    "id": "TC13",
+    "title": "Quay lại login từ trang quên mật khẩu",
+    "username": "",
+    "password": "",
+    "steps": "1. Mở quên mật khẩu. 2. Click Trở lại đăng nhập. 3. Kiểm tra form login.",
+    "expected": "Quay về /Login, ô username và password cùng nút đăng nhập hiển thị.",
+    "status": "PASS",
+    "actual": "Đã chạy trên Chrome hiển thị; các assertion đạt."
   }
 ]
