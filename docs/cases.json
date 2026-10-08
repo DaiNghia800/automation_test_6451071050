@@ -46,8 +46,8 @@
     "password": "Utc_Test_Invalid_2026!",
     "steps": "1. Mở /Login. 2. Nhập username và password giả. 3. Nhấn Đăng nhập.",
     "expected": "Ở lại login và hiển thị thông báo từ chối thông tin không hợp lệ.",
-    "status": "NOT RUN",
-    "actual": ""
+    "status": "PASS",
+    "actual": "Đã chạy trên Chrome hiển thị; các assertion đạt."
   },
   {
     "id": "TC06",
