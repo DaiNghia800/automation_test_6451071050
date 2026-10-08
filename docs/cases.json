@@ -88,5 +88,15 @@
     "expected": "Không đăng nhập; ở lại Login và có thông báo yêu cầu dữ liệu hoặc thông tin sai.",
     "status": "PASS",
     "actual": "Tài khoản hoặc mật khẩu không đúng."
+  },
+  {
+    "id": "TC10",
+    "title": "Từ chối username Unicode không tồn tại",
+    "username": "utc_kiểm_thử_không_tồn_tại_6451071050",
+    "password": "Utc_Test_Invalid_2026!",
+    "steps": "1. Nhập username giả có dấu tiếng Việt. 2. Nhập password giả. 3. Submit.",
+    "expected": "Không đăng nhập; hiển thị thông báo tài khoản hoặc mật khẩu không đúng.",
+    "status": "BLOCKED",
+    "actual": "Không hoàn tất test, exit=1"
   }
 ]
