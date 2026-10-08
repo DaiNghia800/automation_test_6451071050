@@ -78,5 +78,15 @@
     "expected": "Enter submit form; ở lại Login và báo tài khoản hoặc mật khẩu không đúng.",
     "status": "PASS",
     "actual": "Tài khoản hoặc mật khẩu không đúng."
+  },
+  {
+    "id": "TC09",
+    "title": "Từ chối dữ liệu chỉ có khoảng trắng",
+    "username": "   ",
+    "password": "   ",
+    "steps": "1. Nhập ba dấu cách vào mỗi ô. 2. Nhấn Đăng nhập. 3. Kiểm tra từ chối.",
+    "expected": "Không đăng nhập; ở lại Login và có thông báo yêu cầu dữ liệu hoặc thông tin sai.",
+    "status": "PASS",
+    "actual": "Tài khoản hoặc mật khẩu không đúng."
   }
 ]
