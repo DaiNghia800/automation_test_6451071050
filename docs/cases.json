@@ -16,8 +16,8 @@
     "password": "",
     "steps": "1. Mở /Login. 2. Để trống cả hai ô. 3. Nhấn Đăng nhập.",
     "expected": "Ở lại login và hiển thị thông báo từ chối hoặc yêu cầu nhập dữ liệu.",
-    "status": "NOT RUN",
-    "actual": ""
+    "status": "PASS",
+    "actual": "Đã chạy trên Chrome hiển thị; các assertion đạt."
   },
   {
     "id": "TC03",
