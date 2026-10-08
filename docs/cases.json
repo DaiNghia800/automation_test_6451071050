@@ -98,5 +98,15 @@
     "expected": "Không đăng nhập; hiển thị thông báo tài khoản hoặc mật khẩu không đúng.",
     "status": "BLOCKED",
     "actual": "Không hoàn tất test, exit=1"
+  },
+  {
+    "id": "TC11",
+    "title": "Mở trang quên mật khẩu từ login",
+    "username": "",
+    "password": "",
+    "steps": "1. Click link quên mật khẩu. 2. Kiểm tra URL, tiêu đề và ô email/captcha. Không gửi yêu cầu.",
+    "expected": "Mở /Login/GetPass, tiêu đề Lấy lại mật khẩu, hiển thị email và captcha.",
+    "status": "BLOCKED",
+    "actual": "Không hoàn tất test, exit=1"
   }
 ]
