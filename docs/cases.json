@@ -68,5 +68,15 @@
     "expected": "Tab từ username chuyển focus sang password; username không bị thay đổi.",
     "status": "BLOCKED",
     "actual": "Không hoàn tất test, exit=2"
+  },
+  {
+    "id": "TC08",
+    "title": "Submit đăng nhập bằng phím Enter",
+    "username": "utc_automation_nonexistent_6451071050",
+    "password": "Utc_Test_Invalid_2026!",
+    "steps": "1. Nhập tài khoản giả. 2. Nhấn Enter trong ô mật khẩu. 3. Kiểm tra response.",
+    "expected": "Enter submit form; ở lại Login và báo tài khoản hoặc mật khẩu không đúng.",
+    "status": "PASS",
+    "actual": "Tài khoản hoặc mật khẩu không đúng."
   }
 ]
