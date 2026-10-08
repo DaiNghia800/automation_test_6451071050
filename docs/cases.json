@@ -1,0 +1,62 @@
+[
+  {
+    "id": "TC01",
+    "title": "Hiển thị form đăng nhập",
+    "username": "",
+    "password": "",
+    "steps": "1. Mở /Login. 2. Kiểm tra hai ô và nút đăng nhập. 3. Kiểm tra type của mật khẩu.",
+    "expected": "Hai ô và nút hiển thị; mật khẩu có type=password.",
+    "status": "PASS",
+    "actual": "Đã chạy trên Chrome hiển thị; các assertion đạt."
+  },
+  {
+    "id": "TC02",
+    "title": "Để trống cả hai ô",
+    "username": "",
+    "password": "",
+    "steps": "1. Mở /Login. 2. Để trống cả hai ô. 3. Nhấn Đăng nhập.",
+    "expected": "Ở lại login và hiển thị thông báo từ chối hoặc yêu cầu nhập dữ liệu.",
+    "status": "NOT RUN",
+    "actual": ""
+  },
+  {
+    "id": "TC03",
+    "title": "Thiếu tên đăng nhập",
+    "username": "",
+    "password": "Utc_Test_Invalid_2026!",
+    "steps": "1. Mở /Login. 2. Chỉ nhập mật khẩu giả. 3. Nhấn Đăng nhập.",
+    "expected": "Ở lại login và hiển thị thông báo từ chối hoặc yêu cầu nhập dữ liệu.",
+    "status": "NOT RUN",
+    "actual": ""
+  },
+  {
+    "id": "TC04",
+    "title": "Thiếu mật khẩu",
+    "username": "utc_automation_nonexistent_6451071050",
+    "password": "",
+    "steps": "1. Mở /Login. 2. Chỉ nhập username giả. 3. Nhấn Đăng nhập.",
+    "expected": "Ở lại login và hiển thị thông báo từ chối hoặc yêu cầu nhập dữ liệu.",
+    "status": "NOT RUN",
+    "actual": ""
+  },
+  {
+    "id": "TC05",
+    "title": "Tài khoản không tồn tại",
+    "username": "utc_automation_nonexistent_6451071050",
+    "password": "Utc_Test_Invalid_2026!",
+    "steps": "1. Mở /Login. 2. Nhập username và password giả. 3. Nhấn Đăng nhập.",
+    "expected": "Ở lại login và hiển thị thông báo từ chối thông tin không hợp lệ.",
+    "status": "NOT RUN",
+    "actual": ""
+  },
+  {
+    "id": "TC06",
+    "title": "Bật và tắt giữ đăng nhập",
+    "username": "",
+    "password": "",
+    "steps": "1. Mở /Login. 2. Kiểm tra mặc định chưa chọn. 3. Click label bật. 4. Click label tắt.",
+    "expected": "Checkbox lần lượt false, true, false; không submit form.",
+    "status": "NOT RUN",
+    "actual": ""
+  }
+]
