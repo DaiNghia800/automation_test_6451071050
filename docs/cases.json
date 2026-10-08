@@ -108,5 +108,15 @@
     "expected": "Mở /Login/GetPass, tiêu đề Lấy lại mật khẩu, hiển thị email và captcha.",
     "status": "BLOCKED",
     "actual": "Không hoàn tất test, exit=1"
+  },
+  {
+    "id": "TC12",
+    "title": "Kiểm tra liên kết đăng nhập e-mail UTC",
+    "username": "",
+    "password": "",
+    "steps": "1. Kiểm tra nút đăng nhập e-mail UTC. 2. Đọc URL OAuth và callback. Không mở Google.",
+    "expected": "Link hiển thị, trỏ tới HTTPS accounts.google.com, có client_id, response_type=code và callback /Login đúng domain UTC.",
+    "status": "BLOCKED",
+    "actual": "Không hoàn tất test, exit=1"
   }
 ]
