@@ -51,7 +51,7 @@ function loginTest(id,title,body) {
       await driver.manage().setTimeouts({implicit:0,pageLoad:30000,script:15000});
       page = new LoginPage(driver); await page.open();
     });
-    it(title,async function() { await body(page,driver); });
+    it(title,async function() { await allure.step(title,async()=>body(page,driver)); });
     afterEach(async function() {
       if(!driver) return;
       try {

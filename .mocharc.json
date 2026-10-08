@@ -1,0 +1,8 @@
+{
+  "timeout": 60000,
+  "reporter": "allure-mocha",
+  "reporterOptions": [
+    "resultsDir=allure-results",
+    "extraReporters=spec"
+  ]
+}

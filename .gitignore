@@ -3,3 +3,5 @@ allure-results/
 allure-report/
 artifacts/
 .env
+.tools/
+*.inspect.ndjson

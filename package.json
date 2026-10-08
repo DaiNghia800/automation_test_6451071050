@@ -3,16 +3,19 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "test": "mocha --timeout 60000 --reporter allure-mocha tests/*.test.cjs",
-    "test:one": "mocha --timeout 60000 --reporter allure-mocha",
-    "report": "allure generate allure-results --clean -o allure-report",
+    "test": "node scripts/run-tests.cjs",
+    "test:one": "mocha",
+    "report": "allure generate allure-results",
     "report:open": "allure open allure-report"
   },
   "devDependencies": {
-    "selenium-webdriver": "4.27.0",
-    "mocha": "11.0.1",
+    "allure": "3.20.1",
+    "allure-js-commons": "3.0.9",
     "allure-mocha": "3.0.9",
-    "allure-commandline": "2.32.0",
-    "exceljs": "4.4.0"
+    "mocha": "11.0.1",
+    "selenium-webdriver": "4.27.0"
+  },
+  "engines": {
+    "node": ">=20.19.0"
   }
 }

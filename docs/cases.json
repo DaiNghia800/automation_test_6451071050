@@ -17,7 +17,7 @@
     "steps": "1. Mở /Login. 2. Để trống cả hai ô. 3. Nhấn Đăng nhập.",
     "expected": "Ở lại login và hiển thị thông báo từ chối hoặc yêu cầu nhập dữ liệu.",
     "status": "PASS",
-    "actual": "Đã chạy trên Chrome hiển thị; các assertion đạt."
+    "actual": "Bạn chưa nhập tên đăng nhập"
   },
   {
     "id": "TC03",
@@ -27,7 +27,7 @@
     "steps": "1. Mở /Login. 2. Chỉ nhập mật khẩu giả. 3. Nhấn Đăng nhập.",
     "expected": "Ở lại login và hiển thị thông báo từ chối hoặc yêu cầu nhập dữ liệu.",
     "status": "PASS",
-    "actual": "Đã chạy trên Chrome hiển thị; các assertion đạt."
+    "actual": "Bạn chưa nhập tên đăng nhập"
   },
   {
     "id": "TC04",
@@ -37,7 +37,7 @@
     "steps": "1. Mở /Login. 2. Chỉ nhập username giả. 3. Nhấn Đăng nhập.",
     "expected": "Ở lại login và hiển thị thông báo từ chối hoặc yêu cầu nhập dữ liệu.",
     "status": "PASS",
-    "actual": "Đã chạy trên Chrome hiển thị; các assertion đạt."
+    "actual": "Bạn chưa nhập mật khẩu"
   },
   {
     "id": "TC05",
@@ -47,7 +47,7 @@
     "steps": "1. Mở /Login. 2. Nhập username và password giả. 3. Nhấn Đăng nhập.",
     "expected": "Ở lại login và hiển thị thông báo từ chối thông tin không hợp lệ.",
     "status": "PASS",
-    "actual": "Đã chạy trên Chrome hiển thị; các assertion đạt."
+    "actual": "Tài khoản hoặc mật khẩu không đúng."
   },
   {
     "id": "TC06",
