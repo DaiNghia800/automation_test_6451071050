@@ -58,5 +58,15 @@
     "expected": "Checkbox lần lượt false, true, false; không submit form.",
     "status": "PASS",
     "actual": "Đã chạy trên Chrome hiển thị; các assertion đạt."
+  },
+  {
+    "id": "TC07",
+    "title": "Chuyển từ username sang password bằng Tab",
+    "username": "utc_automation_nonexistent_6451071050",
+    "password": "",
+    "steps": "1. Click username. 2. Nhập dữ liệu giả. 3. Nhấn Tab. 4. Kiểm tra focus ở password.",
+    "expected": "Tab từ username chuyển focus sang password; username không bị thay đổi.",
+    "status": "BLOCKED",
+    "actual": "Không hoàn tất test, exit=2"
   }
 ]
