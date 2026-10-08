@@ -66,8 +66,8 @@
     "password": "",
     "steps": "1. Click username. 2. Nhập dữ liệu giả. 3. Nhấn Tab. 4. Kiểm tra focus ở password.",
     "expected": "Tab từ username chuyển focus sang password; username không bị thay đổi.",
-    "status": "BLOCKED",
-    "actual": "Không hoàn tất test, exit=2"
+    "status": "PASS",
+    "actual": "Đã chạy trên Chrome hiển thị; các assertion đạt."
   },
   {
     "id": "TC08",
@@ -96,8 +96,8 @@
     "password": "Utc_Test_Invalid_2026!",
     "steps": "1. Nhập username giả có dấu tiếng Việt. 2. Nhập password giả. 3. Submit.",
     "expected": "Không đăng nhập; hiển thị thông báo tài khoản hoặc mật khẩu không đúng.",
-    "status": "BLOCKED",
-    "actual": "Không hoàn tất test, exit=1"
+    "status": "PASS",
+    "actual": "Tài khoản hoặc mật khẩu không đúng."
   },
   {
     "id": "TC11",
@@ -106,8 +106,8 @@
     "password": "",
     "steps": "1. Click link quên mật khẩu. 2. Kiểm tra URL, tiêu đề và ô email/captcha. Không gửi yêu cầu.",
     "expected": "Mở /Login/GetPass, tiêu đề Lấy lại mật khẩu, hiển thị email và captcha.",
-    "status": "BLOCKED",
-    "actual": "Không hoàn tất test, exit=1"
+    "status": "PASS",
+    "actual": "Đã chạy trên Chrome hiển thị; các assertion đạt."
   },
   {
     "id": "TC12",
@@ -116,8 +116,8 @@
     "password": "",
     "steps": "1. Kiểm tra nút đăng nhập e-mail UTC. 2. Đọc URL OAuth và callback. Không mở Google.",
     "expected": "Link hiển thị, trỏ tới HTTPS accounts.google.com, có client_id, response_type=code và callback /Login đúng domain UTC.",
-    "status": "BLOCKED",
-    "actual": "Không hoàn tất test, exit=1"
+    "status": "PASS",
+    "actual": "Đã chạy trên Chrome hiển thị; các assertion đạt."
   },
   {
     "id": "TC13",
