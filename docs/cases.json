@@ -128,5 +128,15 @@
     "expected": "Quay về /Login, ô username và password cùng nút đăng nhập hiển thị.",
     "status": "PASS",
     "actual": "Đã chạy trên Chrome hiển thị; các assertion đạt."
+  },
+  {
+    "id": "TC14",
+    "title": "Thử lại sau lỗi thiếu mật khẩu",
+    "username": "utc_automation_nonexistent_6451071050",
+    "password": "Utc_Test_Invalid_2026!",
+    "steps": "1. Submit chỉ có username giả. 2. Kiểm tra lỗi thiếu mật khẩu. 3. Nhập đủ dữ liệu giả và submit lại. 4. Kiểm tra thông báo mới.",
+    "expected": "Lượt đầu báo chưa nhập mật khẩu; lượt sau báo tài khoản hoặc mật khẩu không đúng và không còn lỗi thiếu mật khẩu.",
+    "status": "PASS",
+    "actual": "Tài khoản hoặc mật khẩu không đúng."
   }
 ]
